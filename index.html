@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AbiLife — мебель на заказ</title>
+  <meta name="description" content="AbiLife — современная мебель: диваны, кровати, столы. Индивидуальные размеры, доставка и гарантия." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container row">
+      <a class="logo" href="#">
+        <svg viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M2 12L18 2L34 12" stroke="var(--brand)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8 24V14H28V24" stroke="var(--brand)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>AbiLife</span>
+      </a>
+
+      <div class="header-right">
+<button class="burger" aria-label="Menu">☰</button>
+        <nav>
+          <a href="#catalog" data-i18n="nav.catalog">Каталог</a>
+          <a href="#about" data-i18n="nav.about">О нас</a>
+          <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+        </nav>
+
+        <div class="lang-menu">
+          <select id="langSelect" aria-label="Выбор языка">
+            <option value="az">AZ</option>
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+
+        
+      </div>
+    </div>
+  </header>
+
+
+
+  <section class="hero">
+    <div class="container">
+      <h1 data-i18n="hero.title">Современная мебель AbiLife</h1>
+      <p data-i18n="hero.text">Прочные материалы и точные размеры под ваш дом. Производим, доставляем, устанавливаем.</p>
+      <div class="cta">
+        <a class="btn primary" href="#catalog" data-i18n="hero.btn.catalog">Смотреть каталог</a>
+        <a class="btn" href="#contacts" data-i18n="hero.btn.contact">Связаться</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalog -->
+  <section id="catalog" class="section">
+    <div class="container">
+      <h2 data-i18n="catalog.title">Каталог — примеры изделий</h2>
+      <p class="lead" data-i18n="catalog.lead">Ниже — несколько базовых позиций. Любую модель можем изготовить под размеры и цвет вашей комнаты.</p>
+
+      <div class="grid">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="thumb"><img height="450" width="100%" src="img1.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="title" data-i18n="catalog.card1.title">Встроенный шкаф-купе</div>
+            <div class="muted" data-i18n="catalog.card1.text">Шкаф-купе с зеркальными дверями</div>
+            <div style="margin-top:10px">
+              <span class="tag" data-i18n="tag.new">новинка</span>
+              <span class="tag" data-i18n="tag.trendy">Модное</span>
+              <span class="tag" data-i18n="tag.recommend">Рекомендуем</span>
+            </div>
+            <div class="price" data-i18n="catalog.price">от 0 ₼</div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="thumb"><img height="450" width="100%" src="img2.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="title" data-i18n="catalog.card2.title">Кухонный гарнитур</div>
+            <div class="muted" data-i18n="catalog.card2.text">Вместительные шкафы, светлая столешница и практичная планировка</div>
+            <div style="margin-top:10px">
+              <span class="tag" data-i18n="tag.new">новинка</span>
+              <span class="tag" data-i18n="tag.comfort">Максимум удобства</span>
+            </div>
+            <div class="price" data-i18n="catalog.price">от 0 ₼</div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="thumb"><img height="450" width="100%" src="img3.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="title" data-i18n="catalog.card3.title">Встроенный шкаф-купе</div>
+            <div class="muted" data-i18n="catalog.card3.text">Шкаф-купе с зеркальными дверями</div>
+            <div style="margin-top:10px">
+              <span class="tag" data-i18n="tag.stylish">Стильно и удобно</span>
+              <span class="tag" data-i18n="tag.mirror">С зеркальными дверями</span>
+            </div>
+            <div class="price" data-i18n="catalog.price">от 0 ₼</div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card">
+          <div class="thumb"><img height="450" width="100%" src="img4.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="title" data-i18n="catalog.card4.title">Кухонный гарнитур</div>
+            <div class="muted" data-i18n="catalog.card4.text">Вместительные шкафы, светлая столешница и практичная планировка</div>
+            <div style="margin-top:10px">
+              <span class="tag" data-i18n="tag.new">новинка</span>
+              <span class="tag" data-i18n="tag.comfort2">Максимум комфорта</span>
+            </div>
+            <div class="price" data-i18n="catalog.price">от 0 ₼</div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card">
+          <div class="thumb"><img height="450" width="100%" src="img5.png" alt=""></div>
+          <div class="card-body">
+            <div class="title" data-i18n="catalog.card5.title">Офисная мебель</div>
+            <div class="muted" data-i18n="catalog.card5.text">Набор выполнен в современном стиле с акцентом на строгие геометрические формы и контраст цветов</div>
+            <div style="margin-top:10px">
+              <span class="tag" data-i18n="tag.new">новинка</span>
+              <span class="tag" data-i18n="tag.popular">Популярное</span>
+            </div>
+            <div class="price" data-i18n="catalog.price">от 0 ₼</div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="card">
+          <div class="thumb"><img height="450" width="100%" src="img6.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="title" data-i18n="catalog.card6.title">Современная кухонная мебель</div>
+            <div class="muted" data-i18n="catalog.card6.text">Угловая кухня в современном стиле с глянцевыми фасадами, тёмной каменной столешницей и 3D-фартуком «Океан» с подсветкой</div>
+            <div style="margin-top:10px">
+              <span class="tag" data-i18n="tag.new">новинка</span>
+              <span class="tag" data-i18n="tag.recommend">Рекомендуем</span>
+              <span class="tag" data-i18n="tag.exclusive">Эксклюзив</span>
+            </div>
+            <div class="price" data-i18n="catalog.price">от 0 ₼</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="features">
+        <div class="feat">
+          <strong data-i18n="feat.size.title">Индивидуальные размеры</strong>
+          <div class="muted" data-i18n="feat.size.text">Подстроим под планировку: точные замеры, 3D-эскиз, подбор материалов.</div>
+        </div>
+        <div class="feat">
+          <strong data-i18n="feat.delivery.title">Доставка и сборка</strong>
+          <div class="muted" data-i18n="feat.delivery.text">Привезём и аккуратно установим. Работаем аккуратно и вовремя.</div>
+        </div>
+        <div class="feat">
+          <strong data-i18n="feat.consult.title">Бесплатная консультация</strong>
+          <div class="muted" data-i18n="feat.consult.text">Поможем с выбором материалов и планировкой.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Contacts -->
+  <section id="about" class="section">
+    <div class="container about">
+      <div>
+        <h2 data-i18n="about.title">О компании</h2>
+        <p class="lead" data-i18n="about.lead">AbiLife — мебель для вашего стиля жизни. Работаем под ваши размеры, любим натуральные материалы и гарантируем безупречный результат</p>
+        <p data-i18n="about.text">Материалы: натуральное дерево, прочные ткани и качественные детали. Сроки и качество работы фиксируем в договоре.</p>
+      </div>
+      <div id="contacts">
+        <h2 data-i18n="contacts.title">Контакты</h2>
+        <p class="lead" data-i18n="contacts.lead">Пишите нам в соцсетях или звоните — ответим быстро.</p>
+        <p><strong data-i18n="contacts.phone.label">Телефон:</strong> <a href="tel:+994776200047">+994 77 620 00 47</a></p>
+        <p><strong data-i18n="contacts.email.label">Email:</strong> <a href="mailto:abilifemebel@gmail.com">abilifemebel@gmail.com</a></p>
+         <div class="social" aria-label="Социальные сети">
+          <a href="https://www.instagram.com/abilife.mebel" aria-label="Instagram" title="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1aS1Q2dW9j/?mibextid=wwXIfr" aria-label="Facebook" title="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2h-3a5 5 0 0 0-5 5v3H6v4h3v8h4Z"/></svg>
+          </a>
+          <a href="https://wa.me/+994776200047" aria-label="WhatsApp" title="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.5 24l1.7-6A10 10 0 1 1 10 22a10.4 10.4 0 0 1-4.8-1.2L.5 24zM12 4a8 8 0 0 0-6.9 12 1 1 0 0 1 .1.8l-.9 3.1 3.1-.9a1 1 0 0 1 .8.1 8 8 0 1 0 3.8-15.1Z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@abilife.mebel" aria-label="TikTok" title="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 8.5a7.5 7.5 0 0 1-5-1.9V17a5 5 0 1 1-5-5 5 5 0 0 0 5 5V3h3a7.5 7.5 0 0 0 2 5.5Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap">
+      <div style="display:flex; align-items:center; gap:10px">
+        <svg width="22" height="16" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M2 12L18 2L34 12" stroke="var(--brand)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8 24V14H28V24" stroke="var(--brand)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <strong>AbiLife</strong>
+      </div>
+      <div data-i18n="footer.copy">© 2025 AbiLife. Все права защищены.</div>
+    </div>
+  </footer>
+
+  
+  <script src="translate.js"></script>
+</body>
+</html>
